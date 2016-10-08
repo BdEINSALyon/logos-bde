@@ -26,7 +26,9 @@
 
         .logos img {
             max-height: 128px;
+            max-width: 200px;
             margin: 1em;
+            cursor: pointer;
         }
 
         .black_background {
@@ -45,10 +47,20 @@
         }
     </style>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $('img').click(function(){
+                window.open($(this).attr('src'), '_blank');
+            })
+        })
+    </script>
 
 </head>
 <body>
@@ -99,6 +111,15 @@
             <h4>Bal</h4>
             <div class="logos">
                 <img src="bal/Logo.jpg" class="img-thumbnail">
+            </div>
+        </div>
+
+        <div class="team">
+            <h4>BNP</h4>
+            <div class="logos">
+                <img src="bnp/bnp_color.png" class="img-thumbnail">
+                <img src="bnp/bnp_black.png" class="img-thumbnail">
+                <img src="bnp/bnp_white.png" class="img-thumbnail black_background">
             </div>
         </div>
     </div>
