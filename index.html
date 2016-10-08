@@ -31,6 +31,10 @@
             cursor: pointer;
         }
 
+        .logos.vertical img{
+            display: block;
+        }
+
         .black_background {
             background: black;
         }
@@ -38,7 +42,6 @@
         h4 {
             text-align: center;
             font-size: xx-large;
-            margin-top: 1.75em;
         }
 
         #teams{
@@ -68,8 +71,8 @@
 <div class="container">
 
     <div class="jumbotron text-center" id="header">
-        <h1>Logos du BdE INSA Lyon</h1>
-        <p class="lead">Retrouve sur cette page les logos du BdE INSA Lyon</p>
+        <h1>LOGOS</h1>
+        <p class="lead">Retrouve sur cette page les logos utilisées par le BdE INSA Lyon</p>
         <p><a class="btn btn-lg btn-success" href="https://github.com/BdEINSALyon/logos-bde/archive/master.zip"
               role="button">Télécharger tous les logos</a></p>
     </div>
@@ -85,8 +88,17 @@
         </div>
 
         <div class="team">
+            <h4>INSA</h4>
+            <div class="logos vertical">
+                <img src="insa/insa_color.png" class="img-thumbnail">
+                <img src="insa/insa_black.png" class="img-thumbnail">
+                <img src="insa/insa_white.png" class="img-thumbnail black_background">
+            </div>
+        </div>
+
+        <div class="team">
             <h4>Gala</h4>
-            <div class="logos">
+            <div class="logos vertical">
                 <img src="gala/gala_black_background_white.png" class="img-thumbnail">
                 <img src="gala/gala_color.png" class="img-thumbnail">
             </div>
@@ -126,7 +138,7 @@
 
         <div class="team">
             <h4>BNP</h4>
-            <div class="logos">
+            <div class="logos vertical">
                 <img src="bnp/bnp_color.png" class="img-thumbnail">
                 <img src="bnp/bnp_black.png" class="img-thumbnail">
                 <img src="bnp/bnp_white.png" class="img-thumbnail black_background">
@@ -136,6 +148,11 @@
 
     <footer class="footer text-center">
         <p>&copy; 2016 BdE INSA Lyon</p>
+        <p>Le logo INSA Lyon est la propriété de l'INSA de Lyon</p>
+        <p>Le logo et la marque BNP sont la propriété du groupe BNP Paribas</p>
+        <p>Le logo et la marque Orange sont la propriété de Orange</p>
+        <p>Les logos BdE, COOP, Gala, RAID INSA Lyon Orange, WEI, CoDIPC, INSA Shop, Bal, i5, Vie Associative sont la propriété du BdE INSA Lyon</p>
+        <p>L'utilisation de toute image sur cette page doit faire l'objet d'une autorisation préalable auprès du propriétaire.</p>
     </footer>
 
 </div> <!-- /container -->
