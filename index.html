@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Logos - BdE INSA Lyon</title>
@@ -12,47 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <style>
-        #header {
-            margin-top: 3em;
-        }
-
-        .logos {
-            text-align: center;
-            border: solid #DDD 1px;
-            border-radius: 5px;
-            margin: 1em 1em 1em 3em;
-            padding: 1em;
-        }
-
-        .logos img {
-            max-height: 128px;
-            max-width: 200px;
-            margin: 2px;
-            cursor: pointer;
-        }
-
-        .logos.vertical img{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .black_background {
-            background: black;
-        }
-
-        h4 {
-            text-align: center;
-            font-size: xx-large;
-        }
-
-        #teams{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
 
@@ -61,16 +21,12 @@
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
 
-    <script>
-        $(function () {
-            $('img').click(function(){
-                window.open($(this).attr('src'), '_blank');
-            })
-        })
-    </script>
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue"></script>
 
 </head>
 <body>
+
 <div class="container">
 
     <div class="jumbotron text-center" id="header">
@@ -81,103 +37,10 @@
     </div>
 
     <div class="row marketing" id="teams">
-        <div class="team">
-            <h4>BdE INSA lyon</h4>
-            <div class="logos">
-                <img src="bde/bde.png" class="img-thumbnail">
-                <img src="bde/bde_black.png" class="img-thumbnail">
-                <img src="bde/bde_white.png" class="img-thumbnail black_background">
-            </div>
-        </div>
-
-        <div class="team">
-            <h4>INSA</h4>
-            <div class="logos vertical">
-                <img src="insa/insa_color.png" class="img-thumbnail">
-                <img src="insa/insa_black.png" class="img-thumbnail">
-                <img src="insa/insa_white.png" class="img-thumbnail black_background">
-            </div>
-        </div>
-
-        <div class="team">
-            <h4>Gala</h4>
-            <div class="logos vertical">
-                <img src="gala/gala_black_background_white.png" class="img-thumbnail">
-                <img src="gala/gala_color.png" class="img-thumbnail">
-            </div>
-        </div>
-
-        <div class="team">
-            <h4>Bal</h4>
-            <div class="logos">
-                <img src="bal/Logo_bal.png" class="img-thumbnail">
-            </div>
-        </div>
-
-        <div class="team">
-            <h4>COOP</h4>
-            <div class="logos">
-                <img src="coop/coop_color.png" class="img-thumbnail">
-                <img src="coop/coop_black.png" class="img-thumbnail">
-                <img src="coop/coop_white.png" class="img-thumbnail black_background">
-            </div>
-        </div>
-
-        <div class="team">
-            <h4>i5</h4>
-            <div class="logos">
-                <img src="i5/logoi5starup.png" class="img-thumbnail">
-            </div>
-        </div>
-        <div class="team">
-            <h4>Vie Associative</h4>
-            <div class="logos">
-                <img src="va/va_color.png" class="img-thumbnail">
-                <img src="va/va_black.png" class="img-thumbnail">
-                <img src="va/va_white.png" class="img-thumbnail black_background">
-                <img src="va/va_grey.png" class="img-thumbnail">
-            </div>
-        </div>
-
-        <div class="team">
-            <h4>RAID</h4>
-            <div class="logos">
-                <img src="raid/raid_color.jpg" class="img-thumbnail">
-                <img src="raid/raid_image.jpg" class="img-thumbnail">
-                <img src="raid/raid_white.png" class="img-thumbnail black_background">
-                <img src="raid/raid_black.png" class="img-thumbnail">
-            </div>
-        </div>
-
-        <div class="team">
-            <h4>Insashop</h4>
-            <div class="logos">
-                <img src="insashop/insashop_banner.png" class="img-thumbnail"><br>
-                <img src="insashop/insashop_black.png" class="img-thumbnail">
-                <img src="insashop/insashop_white.png" class="img-thumbnail black_background">
-            </div>
-        </div>
-
-        <div class="team">
-            <h4>BNP</h4>
-            <div class="logos vertical">
-                <img src="bnp/bnp_color.png" class="img-thumbnail">
-                <img src="bnp/bnp_black.png" class="img-thumbnail">
-                <img src="bnp/bnp_white.png" class="img-thumbnail black_background">
-            </div>
-        </div>
-
-        <div class="team">
-            <h4>Villeurbanne</h4>
-            <div class="logos">
-                <img src="villeurbanne/villeurbanne.jpg" class="img-thumbnail">
-            </div>
-        </div>
-        <div class="team">
-            <h4>Orange</h4>
-            <div class="logos vertical">
-                <img src="orange/orange_color.png" class="img-thumbnail">
-                <img src="orange/orange_white.png" class="img-thumbnail black_background">
+        <div class="team" v-for="t in teams">
+            <h4>{{ t.name }}</h4>
+            <div v-bind:class="'logos ' + t.stack">
+                <img v-for="pic in t.images" v-bind:src="t.folder + '/' + pic" v-bind:class="'img-thumbnail ' + getClasses(pic)">
             </div>
         </div>
     </div>
@@ -192,6 +55,10 @@
         <p>Les logos BdE, COOP, Gala, RAID INSA Lyon Orange, WEI, CoDIPC, INSA Shop, Bal, i5, Vie Associative sont la propriété du BdE INSA Lyon</p>
         <p>L'utilisation de tout logo sur cette page doit faire l'objet d'une autorisation préalable du propriétaire.</p>
     </footer>
+
+    <!-- This script needs to be at the end in order for Vue to use the existing DOM. -->
+    <!-- Otherwise, elements of the DOM are not accessible within JS. -->
+    <script src="./script.js"></script>
 
 </div> <!-- /container -->
 </body>
