@@ -17,7 +17,6 @@ var app = new Vue({
     },
     methods: {
         getClasses: function(picName) {
-            console.log(this.teams);
             var classes = [];
             if (picName.indexOf("white") > -1) {
                 classes.push("black_background");
