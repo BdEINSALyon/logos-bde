@@ -1,9 +1,3 @@
-$(function () {
-    $('img').click(function () {
-        window.open($(this).attr('src'), '_blank');
-    })
-});
-
 var app = new Vue({
     el: "#teams",
     data: {
@@ -17,7 +11,7 @@ var app = new Vue({
     },
     methods: {
         getClasses: function(picName) {
-            var classes = [];
+            var classes = ["img-thumbnail"];
             if (picName.indexOf("white") > -1) {
                 classes.push("black_background");
             }
@@ -25,6 +19,9 @@ var app = new Vue({
         },
         updateTeams: function(data) {
             this.teams = data.teams;
+        },
+        getLink: function(team, pic) {
+            return team.folder + "/" + pic;
         }
     }
 });

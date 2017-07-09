@@ -41,7 +41,9 @@
         <div class="team" v-for="t in teams">
             <h4>{{ t.name }}</h4>
             <div v-bind:class="'logos ' + t.stack">
-                <img v-for="pic in t.images" v-bind:src="t.folder + '/' + pic" v-bind:class="'img-thumbnail ' + getClasses(pic)">
+                <a v-for="pic in t.images" v-bind:href="getLink(t, pic)">
+                    <img v-bind:src="getLink(t, pic)" v-bind:class="getClasses(pic)">
+                </a>
             </div>
         </div>
     </div>
