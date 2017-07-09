@@ -10,7 +10,7 @@ var app = new Vue({
         teams: []
     },
     created: function () {
-        var self = this;
+        var self = this;  // "this" changes inside the callback, so we need to use another variable.
         $.getJSON('./data.json', function (data) {
             self.updateTeams(data);
         })
