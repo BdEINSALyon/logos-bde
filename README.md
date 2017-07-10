@@ -2,9 +2,9 @@
 
 These logos are exclusive from BdE INSA Lyon. You can not use without direct authorization of Bureau Des Élèves de l'INSA Lyon.
 
-© 2013 - 2015 BdE INSA Lyon, All Rights Reserved
+© 2013 - 2017 BdE INSA Lyon, All Rights Reserved
 
-To ask use of this logos, write a mail to bde[dot]courrier[at]insa-lyon.fr or to :
+To ask use of this logos, write a mail to contact[at]bde-insa-lyon.fr or to :
 
 ```
 Président du BdE
