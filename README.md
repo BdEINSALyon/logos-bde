@@ -1,6 +1,6 @@
 # Logos BdE INSA Lyon
 
-These logos are exclusive from BdE INSA Lyon. You can not use without direct authorization of Bureau Des Élèves de l'INSA Lyon.
+These logos are exclusive from BdE INSA Lyon. You may not use without direct authorization of Bureau Des Élèves de l'INSA Lyon.
 
 © 2013 - 2017 BdE INSA Lyon, All Rights Reserved
 
