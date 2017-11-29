@@ -43,7 +43,7 @@
         },
         {
           "name": "SVG",
-          "direction": "horizontal",
+          "direction": "vertical",
           "pics": [
             "INSA.svg",
             "INSA_black.svg",
