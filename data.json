@@ -4,7 +4,7 @@
   "teams": [
     {
       "folder": "bde",
-      "name": "BdE INSA Lyon",
+      "name": "BdE",
       "direction": "horizontal",
       "images": [
         {
@@ -29,7 +29,7 @@
     },
     {
       "folder": "insa",
-      "name": "INSA Lyon",
+      "name": "INSA",
       "direction": "vertical",
       "images": [
         {
