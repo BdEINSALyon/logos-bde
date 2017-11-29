@@ -60,11 +60,11 @@
     {
       "folder": "bal",
       "name": "Bal",
-      "direction": "horizontal",
+      "direction": "vertical",
       "images": [
         {
           "name": "PNG",
-          "direction": "vertical",
+          "direction": "horizontal",
           "pics": [
             "bal_white.png",
             "bal_noir.png"
@@ -72,7 +72,7 @@
         },
         {
           "name": "SVG",
-          "direction": "vertical",
+          "direction": "horizontal",
           "pics": [
             "bal_white_vector.svg",
             "bal_noir_vector.svg"
