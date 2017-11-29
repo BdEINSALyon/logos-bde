@@ -139,12 +139,11 @@
           "pics": [
             "va_color.png",
             "va_black.png",
-            "va_white.png",
-            "va_grey.png"
+            "va_white.png"
           ]
         },
         {
-          "name": "PNG",
+          "name": "SVG",
           "direction": "horizontal",
           "pics": [
             "va_color.svg",
