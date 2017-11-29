@@ -30,7 +30,7 @@
     {
       "folder": "insa",
       "name": "INSA Lyon",
-      "direction": "horizontal",
+      "direction": "vertical",
       "images": [
         {
           "name": "PNG",
