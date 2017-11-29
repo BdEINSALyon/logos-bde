@@ -52,7 +52,16 @@
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "gala_black_with_background.png"
+            "gala_black.png",
+            "gala_white.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "gala_black.svg",
+            "gala_white.svg"
           ]
         }
       ]
