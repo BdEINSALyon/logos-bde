@@ -20,9 +20,9 @@
           "name": "SVG",
           "direction": "horizontal",
           "pics": [
-            "bde.png",
-            "bde_black.png",
-            "bde_white.png"
+            "bde.svg",
+            "bde_black.svg",
+            "bde_white.svg"
           ]
         }
       ]
