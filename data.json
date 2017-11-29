@@ -34,7 +34,7 @@
       "images": [
         {
           "name": "PNG",
-          "direction": "vertical",
+          "direction": "horizontal",
           "pics": [
             "insa_color.png",
             "insa_black.png",
@@ -43,7 +43,7 @@
         },
         {
           "name": "SVG",
-          "direction": "vertical",
+          "direction": "horizontal",
           "pics": [
             "INSA.svg",
             "INSA_black.svg",
