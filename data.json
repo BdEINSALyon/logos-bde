@@ -69,7 +69,7 @@
             "bal_blanc.png",
             "bal_noir.png",
           ]
-        };
+        },
         {
           "name": "SVG",
           "direction": "vertical",
