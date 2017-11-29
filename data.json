@@ -78,11 +78,11 @@
     {
       "folder": "bal",
       "name": "Bal",
-      "direction": "vertical",
+      "direction": "horizontal",
       "images": [
         {
           "name": "PNG",
-          "direction": "horizontal",
+          "direction": "vertical",
           "pics": [
             "bal_white.png",
             "bal_noir.png"
@@ -90,7 +90,7 @@
         },
         {
           "name": "SVG",
-          "direction": "horizontal",
+          "direction": "vertical",
           "pics": [
             "bal_white_vector.svg",
             "bal_noir_vector.svg"
@@ -180,7 +180,6 @@
           "name": "PNG",
           "direction": "horizontal",
           "pics": [
-            "insashop_banner.png",
             "insashop_black.png",
             "insashop_white.png"
           ]
