@@ -36,7 +36,7 @@
           "name": "PNG",
           "direction": "horizontal",
           "pics": [
-            "insa_color.png",
+            "insa.png",
             "insa_black.png",
             "insa_white.png"
           ]
