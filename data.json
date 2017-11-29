@@ -162,10 +162,18 @@
           "name": "PNG",
           "direction": "horizontal",
           "pics": [
-            "raid_color.jpg",
-            "raid_image.jpg",
+            "raid_color.png",
             "raid_black.png",
             "raid_white.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "horizontal",
+          "pics": [
+            "raid_color.svg",
+            "raid_black.svg",
+            "raid_white.svg"
           ]
         }
       ]
