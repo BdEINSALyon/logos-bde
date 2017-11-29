@@ -13,7 +13,7 @@ var app = new Vue({
         getClasses: function(picName) {
             var classes = ["img-thumbnail"];
             if (picName.indexOf("white") > -1) {
-                classes.push("black_background");
+                console.log("YA DU BLANC");
             }
             return classes.join(' ');
         },

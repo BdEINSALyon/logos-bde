@@ -1,5 +1,10 @@
+#gbcolor {
+    background: darkgray;
+}
+
 #header {
     margin-top: 3em;
+    background: dimgray;
 }
 
 .logos {
