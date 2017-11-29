@@ -142,6 +142,15 @@
             "va_white.png",
             "va_grey.png"
           ]
+        },
+        {
+          "name": "PNG",
+          "direction": "horizontal",
+          "pics": [
+            "va_color.svg",
+            "va_black.svg",
+            "va_white.svg"
+          ]
         }
       ]
     },
