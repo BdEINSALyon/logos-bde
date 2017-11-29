@@ -40,6 +40,15 @@
             "insa_black.png",
             "insa_white.png"
           ]
+        },
+        {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "INSA.svg",
+            "INSA_black.svg",
+            "INSA_white.svg"
+          ]
         }
       ]
     },
