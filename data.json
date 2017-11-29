@@ -5,11 +5,11 @@
     {
       "folder": "bde",
       "name": "BdE INSA Lyon",
-      "direction": "vertical",
+      "direction": "horizontale",
       "images": [
         {
           "name": "PNG",
-          "direction": "horizontal",
+          "direction": "vertical",
           "pics": [
             "bde.png",
             "bde_black.png",
@@ -18,7 +18,7 @@
         },
         {
           "name": "SVG",
-          "direction": "horizontal",
+          "direction": "vertical",
           "pics": [
             "bde.svg",
             "bde_black.svg",
