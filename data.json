@@ -1,79 +1,192 @@
 {
   "config": {
-
   },
   "teams": [
     {
       "folder": "bde",
       "name": "BdE INSA Lyon",
-      "stack": "horizontal",
-      "images": ["bde.png", "bde_70px.png", "bde_black.png", "bde_white.png"]
+      "direction": "vertical",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "horizontal",
+          "pics": [
+            "bde.png",
+            "bde_70px.png",
+            "bde_black.png",
+            "bde_white.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "insa",
       "name": "INSA Lyon",
-      "stack": "vertical",
-      "images": ["insa_color.png", "insa_black.png", "insa_white.png"]
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "insa_color.png",
+            "insa_black.png",
+            "insa_white.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "gala",
       "name": "Gala",
-      "stack": "vertical",
-      "images": ["gala_black_with_background.png"]
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "gala_black_with_background.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "bal",
       "name": "Bal",
-      "stack": "vertical",
-      "images": ["Logo_bal.png"]
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "Logo_bal.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "coop",
       "name": "COOP",
-      "stack": "horizontal",
-      "images": ["coop_color.png", "coop_black.png", "coop_white.png"]
+      "direction": "vertical",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "horizontal",
+          "pics": [
+            "coop_color.png",
+            "coop_black.png",
+            "coop_white.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "i5",
       "name": "High Five",
-      "stack": "horizontal",
-      "images": ["logoi5starup.png"]
+      "direction": "vertical",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "horizontal",
+          "pics": [
+            "logoi5starup.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "va",
       "name": "Vie Associative",
-      "stack": "horizontal",
-      "images": ["va_color.png", "va_black.png", "va_white.png", "va_grey.png"]
+      "direction": "vertical",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "horizontal",
+          "pics": [
+            "va_color.png",
+            "va_black.png",
+            "va_white.png",
+            "va_grey.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "raid",
       "name": "Raid",
-      "stack": "horizontal",
-      "images": ["raid_color.jpg", "raid_image.jpg", "raid_black.png", "raid_white.png"]
+      "direction": "vertical",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "horizontal",
+          "pics": [
+            "raid_color.jpg",
+            "raid_image.jpg",
+            "raid_black.png",
+            "raid_white.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "insashop",
       "name": "INSA Shop",
-      "stack": "horizontal",
-      "images": ["insashop_banner.png", "insashop_black.png", "insashop_white.png"]
+      "direction": "vertical",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "horizontal",
+          "pics": [
+            "insashop_banner.png",
+            "insashop_black.png",
+            "insashop_white.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "bnp",
       "name": "BNP",
-      "stack": "vertical",
-      "images": ["bnp_color.png", "bnp_black.png", "bnp_white.png"]
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "bnp_color.png",
+            "bnp_black.png",
+            "bnp_white.png"
+          ]
+        }
+      ]
     },
     {
       "folder": "villeurbanne",
       "name": "Villeurbanne",
-      "stack": "vertical",
-      "images": ["villeurbanne.jpg"]
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "villeurbanne.jpg"
+          ]
+        }
+      ]
     },
     {
       "folder": "orange",
       "name": "Orange",
-      "stack": "vertical",
-      "images": ["orange_color.png", "orange_white.png"]
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "orange_color.png",
+            "orange_white.png"
+          ]
+        }
+      ]
     }
   ]
 }

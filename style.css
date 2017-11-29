@@ -17,10 +17,14 @@
     cursor: pointer;
 }
 
-.logos.vertical img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
 }
 
 .black_background {
@@ -32,8 +36,14 @@ h4 {
     font-size: xx-large;
 }
 
+h5 {
+    text-align: center;
+    margin-top: 0;
+}
+
 #teams{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
 }

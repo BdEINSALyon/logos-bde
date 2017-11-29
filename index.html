@@ -38,12 +38,17 @@
     </div>
 
     <div class="row marketing" id="teams">
-        <div class="team" v-for="t in teams">
-            <h4>{{ t.name }}</h4>
-            <div v-bind:class="'logos ' + t.stack">
-                <a v-for="pic in t.images" v-bind:href="getLink(t, pic)">
-                    <img v-bind:src="getLink(t, pic)" v-bind:class="getClasses(pic)">
-                </a>
+        <div class="team" v-for="team in teams">
+            <h4>{{ team.name }}</h4>
+            <div v-bind:class="team.direction">
+                <div v-for="set in team.images" class="logos">
+                    <h5>{{ set.name }}</h5>
+                    <div v-bind:class="set.direction">
+                        <a v-for="pic in set.pics" v-bind:href="getLink(team, pic)">
+                            <img v-bind:src="getLink(team, pic)" v-bind:class="getClasses(pic)">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -55,8 +60,10 @@
         <p>Le logo Villeurbanne est la propriété de la ville de Villeurbanne</p>
         <p>Le logo et la marque BNP sont la propriété du groupe BNP Paribas</p>
         <p>Le logo et la marque Orange sont la propriété de Orange</p>
-        <p>Les logos BdE, COOP, Gala, RAID INSA Lyon Orange, WEI, CoDIPC, INSA Shop, Bal, i5, Vie Associative sont la propriété du BdE INSA Lyon</p>
-        <p>L'utilisation de tout logo sur cette page doit faire l'objet d'une autorisation préalable du propriétaire.</p>
+        <p>Les logos BdE, COOP, Gala, RAID INSA Lyon Orange, WEI, CoDIPC, INSA Shop, Bal, i5, Vie Associative sont la
+            propriété du BdE INSA Lyon</p>
+        <p>L'utilisation de tout logo sur cette page doit faire l'objet d'une autorisation préalable du
+            propriétaire.</p>
     </footer>
 
     <!-- This script needs to be at the end in order for Vue to use the existing DOM. -->
