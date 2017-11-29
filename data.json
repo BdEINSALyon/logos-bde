@@ -84,16 +84,16 @@
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "bal_white.png",
-            "bal_noir.png"
+            "bal_noir.png",
+            "bal_white.png"
           ]
         },
         {
           "name": "SVG",
           "direction": "vertical",
           "pics": [
-            "bal_white_vector.svg",
-            "bal_noir_vector.svg"
+            "bal_noir_vector.svg",
+            "bal_white_vector.svg"
           ]
         }
       ]
