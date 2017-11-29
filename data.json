@@ -45,9 +45,9 @@
           "name": "SVG",
           "direction": "vertical",
           "pics": [
-            "INSA.svg",
-            "INSA_black.svg",
-            "INSA_white.svg"
+            "insa.svg",
+            "insa_black.svg",
+            "insa_white.svg"
           ]
         }
       ]
