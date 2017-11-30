@@ -99,29 +99,15 @@
     {
       "folder": "coop",
       "name": "COOP",
-      "direction": "vertical",
+      "direction": "hoizontal",
       "images": [
         {
           "name": "PNG",
-          "direction": "horizontal",
+          "direction": "vertical",
           "pics": [
             "coop_color.png",
             "coop_black.png",
             "coop_white.png"
-          ]
-        }
-      ]
-    },
-    {
-      "folder": "i5",
-      "name": "High Five",
-      "direction": "vertical",
-      "images": [
-        {
-          "name": "PNG",
-          "direction": "horizontal",
-          "pics": [
-            "logoi5starup.png"
           ]
         }
       ]
@@ -172,6 +158,20 @@
             "raid_color.svg",
             "raid_black.svg",
             "raid_white.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "folder": "i5",
+      "name": "High Five",
+      "direction": "vertical",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "horizontal",
+          "pics": [
+            "logoi5starup.png"
           ]
         }
       ]
