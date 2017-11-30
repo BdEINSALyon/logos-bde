@@ -5,9 +5,19 @@ var app = new Vue({
     },
     created: function () {
         var self = this;  // "this" changes inside the callback, so we need to use another variable.
-        $.getJSON('./data.json', function (data) {
-            self.updateTeams(data);
-        })
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', './data.json', true);
+        xhr.responseType = 'json';
+        xhr.onload = function() {
+            var status = xhr.status;
+            if (status === 200) {
+                self.updateTeams(xhr.response);
+            }
+            else {
+                console.error("Error loading JSON", xhr.response);
+            }
+        };
+        xhr.send();
     },
     methods: {
         getClasses: function(picName) {

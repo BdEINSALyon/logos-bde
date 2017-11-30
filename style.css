@@ -27,7 +27,7 @@ body {
 .logos img {
     max-height: 128px;
     max-width: 200px;
-    margin: 2px;
+    margin: 1ex;
 }
 
 .team {
