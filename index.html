@@ -26,7 +26,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
 
 </head>
-<body id="bgcolor">
+<body>
 
 <div class="container">
 
@@ -39,13 +39,13 @@
 
     <div class="row marketing" id="teams">
         <div class="team" v-for="team in teams">
-            <h4>{{ team.name }}</h4>
-            <div v-bind:class="team.direction">
+            <h2>{{ team.name }}</h2>
+            <div v-bind:class="'flex ' + team.direction">
                 <div v-for="set in team.images" class="logos">
-                    <h5>{{ set.name }}</h5>
-                    <div v-bind:class="set.direction">
-                        <a v-for="pic in set.pics" v-bind:href="getLink(team, pic)">
-                            <img v-bind:src="getLink(team, pic)" v-bind:class="getClasses(pic)">
+                    <h3>{{ set.name }}</h3>
+                    <div v-bind:class="'flex ' + set.direction">
+                        <a v-for="pic in set.pics" v-bind:href="getLink(team, pic)" class="pic-link">
+                            <img v-bind:src="getLink(team, pic)" class="img-thumbnail">
                         </a>
                     </div>
                 </div>

@@ -1,49 +1,70 @@
-#bgcolor {
-    background: darkgray;
+body {
+    background: #868686;
 }
 
 #header {
     margin-top: 3em;
-    background: dimgray;
+    background-color: #4e4e4e;
+    color: #cfcfcf;
+}
+
+.img-thumbnail {
+    background-color: inherit;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 .logos {
     text-align: center;
-    border: solid #DDD 1px;
-    border-radius: 5px;
-    margin: 1em 1em 1em 3em;
-    padding: 1em;
+    border: solid #636363 1px;
+    border-radius: 15px;
+    margin: 1ex;
+    padding: 1ex;
 }
 
 .logos img {
     max-height: 128px;
     max-width: 200px;
     margin: 2px;
-    cursor: pointer;
+}
+
+.team {
+    margin: 1em;
+}
+
+
+.flex {
+    display: flex;
 }
 
 .horizontal {
-    display: flex;
     flex-direction: row;
 }
 
 .vertical {
-    display: flex;
     flex-direction: column;
+}
+
+.pic-link {
+    flex-grow: 1;
 }
 
 .black_background {
     background: black;
 }
 
-h4 {
-    text-align: center;
-    font-size: xx-large;
-}
-
-h5 {
+h2 {
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 1ex;
+    margin-bottom: 0;
 }
 
 #teams{
