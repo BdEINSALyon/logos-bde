@@ -171,7 +171,20 @@
           "name": "PNG",
           "direction": "horizontal",
           "pics": [
-            "logoi5starup.png"
+            "i5.png"
+            "i5_black.png"
+            "i5_white.png"
+            
+          ]
+        },{
+        
+          "name": "SVH",
+          "direction": "horizontal",
+          "pics": [
+            "i5.svg"
+            "i5_black.svg"
+            "i5_white.svg"
+            
           ]
         }
       ]
