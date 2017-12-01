@@ -171,18 +171,18 @@
           "name": "PNG",
           "direction": "horizontal",
           "pics": [
-            "i5.png"
-            "i5_black.png"
+            "i5.png",
+            "i5_black.png",
             "i5_white.png"
             
           ]
         },{
         
-          "name": "SVH",
+          "name": "SVG",
           "direction": "horizontal",
           "pics": [
-            "i5.svg"
-            "i5_black.svg"
+            "i5.svg",
+            "i5_black.svg",
             "i5_white.svg"
             
           ]
