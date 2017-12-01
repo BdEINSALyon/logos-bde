@@ -251,8 +251,18 @@
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "orange_color.png",
-            "orange_white.png"
+            "orange.png",
+            "orange_white.png",
+            "orange_black.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "orange.svg",
+            "orange_white.svg",
+            "orange_black.svg"
           ]
         }
       ]
