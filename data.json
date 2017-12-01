@@ -231,11 +231,11 @@
     {
       "folder": "villeurbanne",
       "name": "Villeurbanne",
-      "direction": "horizontal",
+      "direction": "vertical",
       "images": [
         {
           "name": "PNG",
-          "direction": "vertical",
+          "direction": "horizontal",
           "pics": [
             "villeurbanne.png",
             "villeurbanne_black.png",
@@ -244,7 +244,7 @@
         },
         {
           "name": "svg",
-          "direction": "vertical",
+          "direction": "horizontal",
           "pics": [
             "villeurbanne.svg",
             "villeurbanne_black.svg",
