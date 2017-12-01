@@ -201,6 +201,14 @@
             "insashop_black.png",
             "insashop_white.png"
           ]
+        },
+        {
+          "name": "SVG",
+          "direction": "horizontal",
+          "pics": [
+            "insashop_black.svg",
+            "insashop_white.svg"
+          ]
         }
       ]
     },
