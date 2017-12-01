@@ -237,7 +237,18 @@
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "villeurbanne.jpg"
+            "villeurbanne.png",
+            "villeurbanne_black.png",
+            "villeurbanne_white.png"
+          ]
+        },
+        {
+          "name": "svg",
+          "direction": "vertical",
+          "pics": [
+            "villeurbanne.svg",
+            "villeurbanne_black.svg",
+            "villeurbanne_white.svg"
           ]
         }
       ]
