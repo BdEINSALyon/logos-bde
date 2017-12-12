@@ -106,7 +106,7 @@
           "direction": "vertical",
           "pics": [
             "wei_black.png",
-            "wei_white.png"
+            "wei_blanc.png"
           ]
         },
         {
@@ -114,7 +114,7 @@
           "direction": "vertical",
           "pics": [
             "wei_black.svg",
-            "wei_white.svg"
+            "wei_blanc.svg"
           ]
         }
       ]
