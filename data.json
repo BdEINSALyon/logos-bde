@@ -215,15 +215,24 @@
     {
       "folder": "bnp",
       "name": "BNP",
-      "direction": "horizontal",
+      "direction": "vertical",
       "images": [
         {
           "name": "PNG",
-          "direction": "vertical",
+          "direction": "horizontal",
           "pics": [
-            "bnp_color.png",
+            "bnp.png",
             "bnp_black.png",
             "bnp_white.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "horizontal",
+          "pics": [
+            "bnp.svg",
+            "bnp_black.svg",
+            "bnp_white.svg"
           ]
         }
       ]
