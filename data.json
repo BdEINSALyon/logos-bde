@@ -237,7 +237,7 @@
         }
       ]
     },
-    {
+    
       "folder": "orange",
       "name": "Orange",
       "direction": "horizontal",
@@ -287,6 +287,6 @@
         }
       ]
     }
-
+    {
   ]
 }
