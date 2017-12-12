@@ -97,6 +97,52 @@
       ]
     },
     {
+      "folder": "wei",
+      "name": "WEI 18'",
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "wei_black.png",
+            "wei_white.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "wei_black.svg",
+            "wei_white.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "folder": "dipc",
+      "name": "DIPC",
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "DIPC_black.png",
+            "DIPC_white.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "DIPC_black.svg",
+            "DIPC_white.svg"
+          ]
+        }
+      ]
+    },
+    {
       "folder": "coop",
       "name": "COOP",
       "direction": "hoizontal",
@@ -287,6 +333,5 @@
         }
       ]
     }
-
   ]
 }
