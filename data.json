@@ -237,6 +237,31 @@
         }
       ]
     },
+    
+      "folder": "orange",
+      "name": "Orange",
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "orange.png",
+            "orange_white.png",
+            "orange_black.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "orange.svg",
+            "orange_white.svg",
+            "orange_black.svg"
+          ]
+        }
+      ]
+    },
     {
       "folder": "villeurbanne",
       "name": "Villeurbanne",
@@ -261,31 +286,7 @@
           ]
         }
       ]
-    },
-    {
-      "folder": "orange",
-      "name": "Orange",
-      "direction": "horizontal",
-      "images": [
-        {
-          "name": "PNG",
-          "direction": "vertical",
-          "pics": [
-            "orange.png",
-            "orange_white.png",
-            "orange_black.png"
-          ]
-        },
-        {
-          "name": "SVG",
-          "direction": "vertical",
-          "pics": [
-            "orange.svg",
-            "orange_white.svg",
-            "orange_black.svg"
-          ]
-        }
-      ]
     }
+    {
   ]
 }
