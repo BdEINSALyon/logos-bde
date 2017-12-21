@@ -209,6 +209,29 @@
       ]
     },
     {
+      "folder": "orgaif",
+      "name": "OrgaIF",
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "orgaif_color.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "orgaif_color.svg",
+            "orgaif_black.svg",
+            "orgaif_white.svg"
+          ]
+        }
+      ]
+    },
+    {
       "folder": "i5",
       "name": "High Five",
       "direction": "vertical",
