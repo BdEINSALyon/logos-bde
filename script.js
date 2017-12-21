@@ -10,11 +10,11 @@ var app = new Vue({
         xhr.responseType = 'json';
         xhr.onload = function() {
             var status = xhr.status;
-            if (status === 200) {
+            if (status === 200 && xhr.response !== null) {
                 self.updateTeams(xhr.response);
             }
             else {
-                console.error("Error loading JSON", xhr.response);
+                console.error("Error loading JSON", xhr);
             }
         };
         xhr.send();
