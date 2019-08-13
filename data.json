@@ -355,6 +355,21 @@
           ]
         }
       ]
+    },
+    {
+      "folder": "kfet",
+      "name": "K-fet",
+      "direction":"horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "kfet_black.png",
+            "kfet_white.png"
+          ]
+        }
+      ]
     }
   ]
 }
