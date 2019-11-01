@@ -82,23 +82,23 @@
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "bal_noir.png",
-            "bal_white.png"
+            "bal_filled.png",
+            "bal_empty.png"
           ]
         },
         {
           "name": "SVG",
           "direction": "vertical",
           "pics": [
-            "bal_noir_vector.svg",
-            "bal_white_vector.svg"
+            "bal_filled.svg",
+            "bal_empty.svg"
           ]
         }
       ]
     },
     {
       "folder": "wei",
-      "name": "WEI 18'",
+      "name": "WEI 20'",
       "direction": "horizontal",
       "images": [
         {
@@ -227,6 +227,31 @@
             "orgaif_color.svg",
             "orgaif_black.svg",
             "orgaif_white.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "folder": "anim",
+      "name": "Equipe Anim",
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "anim_color.png",
+		 "anim_black.png",
+		 "anim_white.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "anim_color.svg",
+            "anim_black.svg",
+            "anim_white.svg"
           ]
         }
       ]
