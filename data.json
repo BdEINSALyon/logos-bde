@@ -82,16 +82,20 @@
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "bal_filled.png",
-            "bal_empty.png"
+            "bal19_color.png",
+            "bal19_empty.png",
+		 "bal19_black.png",
+		 "bal19_white.png"
           ]
         },
         {
           "name": "SVG",
           "direction": "vertical",
           "pics": [
-            "bal_filled.svg",
-            "bal_empty.svg"
+            "bal19_color.svg",
+            "bal19_empty.svg",
+		 "bal19_black.svg",
+		 "bal19_white.svg"
           ]
         }
       ]
