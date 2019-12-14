@@ -70,7 +70,23 @@
             "gala_black.svg",
             "gala_white.svg"
           ]
-        }
+        },
+	{
+	  "name": "PNG XXIV",
+	  "directions": "vertical",
+	  "pics": [
+	    "gala_XXIV.png",
+	    "gala_XXIV_BW.png"
+	  ]
+	},
+	{
+	  "name": "SVG XXIV",
+	  "direction": "vertical",
+	  "pics": [
+	    "gala_XXIV.svg",
+	    "gala_XXIV_BW.svg"
+	  ]
+	}
       ]
     },
     {
