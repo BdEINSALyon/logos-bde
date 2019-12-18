@@ -175,7 +175,16 @@
             "coop_black.png",
             "coop_white.png"
           ]
-        }
+        },
+	  {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "coop_color.svg",
+            "coop_black.svg",
+            "coop_white.svg"
+          ]
+        },
       ]
     },
     {
