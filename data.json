@@ -238,24 +238,27 @@
       ]
     },
     {
-      "folder": "orgaif",
-      "name": "OrgaIF",
+      "folder": "sia",
+      "name": "SIA",
       "direction": "horizontal",
       "images": [
         {
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "orgaif_color.png"
+            "sia_color.png",
+            "sia_black.png",
+            "sia_white.png"
+
           ]
         },
         {
           "name": "SVG",
           "direction": "vertical",
           "pics": [
-            "orgaif_color.svg",
-            "orgaif_black.svg",
-            "orgaif_white.svg"
+            "sia_color.svg",
+            "sia_black.svg",
+            "sia_white.svg"
           ]
         }
       ]
@@ -285,6 +288,32 @@
         }
       ]
     },
+    {
+      "folder": "interdepart",
+      "name": "Interdépart'",
+      "direction": "horizontal",
+      "images": [
+        {
+          "name": "PNG",
+          "direction": "vertical",
+          "pics": [
+            "interdepart_color.png",
+		 "interdepart_black.png",
+		 "interdepart_white.png"
+          ]
+        },
+        {
+          "name": "SVG",
+          "direction": "vertical",
+          "pics": [
+            "interdepart_color.svg",
+            "interdepart_black.svg",
+            "interdepart_white.svg"
+          ]
+        }
+      ]
+    },
+
     {
       "folder": "i5",
       "name": "High Five",
@@ -419,8 +448,8 @@
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "kfet_2020_black.png",
-            "kfet_2020_white.png"
+            "kfet_2020_black.jpg",
+            "kfet_2020_white.jpg"
           ]
         }
       ]
