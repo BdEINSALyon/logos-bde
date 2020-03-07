@@ -73,7 +73,7 @@
         },
 	{
 	  "name": "PNG XXIV",
-	  "directions": "vertical",
+	  "direction": "vertical",
 	  "pics": [
 	    "gala_XXIV.png",
 	    "gala_XXIV_BW.png"
@@ -419,8 +419,8 @@
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "kfet_black.png",
-            "kfet_white.png"
+            "kfet_2020_black.png",
+            "kfet_2020_white.png"
           ]
         }
       ]
