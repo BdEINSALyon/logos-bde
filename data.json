@@ -448,8 +448,8 @@
           "name": "PNG",
           "direction": "vertical",
           "pics": [
-            "kfet_2020_black.jpg",
-            "kfet_2020_white.jpg"
+            "kfet_2020_black.png",
+            "kfet_2020_white.png"
           ]
         }
       ]
